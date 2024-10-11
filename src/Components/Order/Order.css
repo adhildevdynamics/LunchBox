@@ -1,0 +1,188 @@
+/* .order-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .order-container h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .order-container h2,
+  .order-container h3 {
+    color: #555;
+  }
+  
+  .order-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-container li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .order-container li:last-child {
+    border-bottom: none;
+  }
+  
+  .order-container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .order-container button:hover {
+    background-color: #45a049;
+  }
+   */
+   :root {
+    --background-color: #fff;
+    --background-light: #fff;
+    --primary-color: rgb(255, 0, 86);
+    --shadow-color: rgba(0,0,0,0.2);
+    --text-color: #0A0A0A;
+    --text-light: #575757;
+    --animation-speed: 1;
+    --font-size: 16px;
+}
+
+.popup-button {
+  background-color: var(--background-light);
+  box-shadow: 0 3px 6px var(--shadow-color);
+  width: 100%;
+  height: 55px;
+  border-radius: 12px;
+  padding: .75em 1.25em;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  &:hover {
+    background-color: var(--primary-color);
+  }
+}
+.order-button {
+  background-color: var(--background-light);
+  box-shadow: 0 3px 6px var(--shadow-color);
+  border-radius: 5px;
+  /* width: 100%; */
+  height: 55px;
+  font-size: 0.75em;
+  font-weight: 700;
+  padding: 0.75em 1.5em;
+  border: none;
+  outline: none;
+  &:hover{
+    background-color: var(--primary-color);
+  }
+  
+}
+.buttons{
+  display:flex;
+  justify-content: space-between;
+
+
+}
+.confirm-button {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 10vw;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 0 2px 6px var(--shadow-color);
+  &:hover{
+    background-color: var(--text-color);
+  }
+
+}
+
+/* 
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: var(--background-color);
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.close-button {
+  background-color: var(--background-light);
+  color: var(--text-color);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 10vw;
+  cursor: pointer;
+  margin-top: 10px;
+  &:hover {
+    background-color: var(--primary-color);
+  }
+} */
+
+/* Remove the overlay styles */
+.modal-overlay {
+  display: none;
+}
+
+.modal-content {
+  background: var(--background-color);
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 500px;
+  box-shadow: 0 3px 6px var(--shadow-color);
+  border-radius: 5px;
+  position: relative;
+  margin: auto;
+  top: 50px; 
+}
+
+.close-button {
+  background-color: var(--background-light);
+  color: var(--text-color);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 10vw;
+  cursor: pointer;
+  margin-top: 10px;
+  box-shadow: 0 2px 6px var(--shadow-color);
+}
+
+.close-button:hover {
+  background-color: var(--primary-color);
+}

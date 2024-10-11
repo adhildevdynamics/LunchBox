@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: poppins;
+  font-size: var(--bs-body-font-size);
+  font-weight: var(--bs-body-font-weight);
+  line-height: var(--bs-body-line-height);
+  color: var(--bs-body-color);
+  background-color: blue;
+  text-align: var(--bs-body-text-align);
+  background-color: var(--bs-body-bg);
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* index.css */
+:root {
+  --background-color: #fff;
+  --background-light: #fff;
+  --shadow-color: rgba(0,0,0,0.2);
+  --primary-color: rgb(185, 35, 53);
+  --text-color: #0A0A0A;
+  --text-light: #575757;
+  --animation-speed: 1s;
+  --font-size: 16px;
+}
+
+[data-theme="dark"] {
+  --background-color: #000;
+  --background-light: #333;
+  --shadow-color: rgba(255,255,255,0.2);
+  --primary-color: rgb(185, 35, 53);
+  --text-color: #fff;
+  --text-light: #ccc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 65px;
+  box-shadow: 0 3px 6px var(--shadow-color);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding-bottom: 0%;
+  margin-top: 55%;
+}
+
+.navbar .logo {
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: var(--primary-color);
+  text-decoration: none;
+  padding-top: 8px;
+}
+
+.navbar .logo span {
+  color: var(--text-color);
+}
+
+.navbar .nav-links {
+  padding-top: 13px;
+}
+
+.navbar .nav-links a {
+  text-decoration: none;
+  color: var(--text-light);
+  letter-spacing: 2px;
+  padding-top: 8px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.navbar .nav-links a::before {
+  content: '';
+  display: inline-block;
+  height: 3px;
+  width: 100%;
+  background-color: var(--primary-color);
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transition: transform 0.2s;
+}
+
+.navbar .nav-links a:hover::before {
+  transform: scaleX(1);
+}
+
+.navbar .nav-links a:active {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.container {
+  padding-inline: 15vw;
+}
+
+.theme-toggle-button {
+  background: none;
+  border: 1px solid currentColor;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: inherit;
+}
+

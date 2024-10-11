@@ -1,0 +1,94 @@
+/* Confirmation.css */
+:root {
+  --background-color: #fff;
+  --background-light: #fff;
+  --primary-color: rgb(255, 0, 86);
+  --shadow-color: rgba(0,0,0,0.2);
+  --text-color: #0A0A0A;
+  --text-light: #575757;
+  --animation-speed: 1;
+  --font-size: 16px;
+}
+
+.confirmation-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .confirmation-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .confirmation-header h1 {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .confirmation-header h2 {
+    font-size: 1.5em;
+    color: #555;
+  }
+  
+  .user-details {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .user-details p {
+    margin: 5px 0;
+  }
+  
+  .orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .orders-table th,
+  .orders-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .orders-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .orders-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .orders-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .confirmation-footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .confirmation-footer button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .confirmation-footer button:hover {
+    background-color: #218838;
+  }
+  

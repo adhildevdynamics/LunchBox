@@ -1,0 +1,31 @@
+:root {
+    --background-color: #fff;
+    --background-light: #fff;
+    --shadow-color: rgba(0,0,0,0.2);
+    --primary-color: rgb(185, 35, 53);
+    --text-color: #0A0A0A;
+    --text-light: #575757;
+    --animation-speed: 1;
+    --font-size:16px;
+  }
+
+.section.quote{
+    display: block;
+    .quote-text{
+        font-size: 1.2em;
+        line-height: 1.3em;
+        color:black;
+        svg{
+            color: var(--primary-color);
+            font-size: 1.5em;
+            margin-right: .5em;
+        }
+    }
+    .quote-author{
+        color: var(--primary-color);
+        text-align: right;
+        margin-top: 1em;
+        font-weight: bolder;
+    }
+    
+}

@@ -1,0 +1,127 @@
+ :root {
+  --background-color: #fff;
+  --background-light: #fff;
+  --shadow-color: rgba(0,0,0,0.2);
+  --primary-color: rgb(185, 35, 53);
+  --text-color: #0A0A0A;
+  --text-light: #575757;
+  --animation-speed: 1;
+  --font-size:16px;
+}
+.admin-body{
+  color: var(--text-color);
+  background: url('../../assets/back9.png')
+  no-repeat;
+  background-position: center ;
+  background-size: contain;
+  background-size: contain;
+  width:100vw;
+  height: 100vh;
+  margin-top: -55%;
+  p{
+    text-align: center;
+    font-size: 4em;
+    &:nth-of-type(2){
+      color: var(--primary-color) ;
+    }
+    &:nth-of-type(4) {
+      color: var(--primary-color);
+    }
+  }
+  h1{
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+  }
+}
+
+.text{
+  letter-spacing: 10px;
+  border-right: 5px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  font-weight: 900;
+  animation: 
+    typing 3s, 
+    cursor .4s step-end infinite alternate;
+}
+@keyframes cursor {
+  0% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from { width: 0;}
+}
+
+
+
+.admin-body .icon{
+  position: absolute;
+  right: 34%;
+}
+
+ .btn-section {
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  border-color: #0A0A0A;
+  padding-inline-start: 39%;
+  justify-content: space-between;
+  display: flex;
+  margin-inline-end: 36%;
+  margin-inline-start: -5%;
+  
+  
+ }
+.order-btn{
+  border-radius: 5px;
+  background-color: var(--background-light);
+  border: none;
+  color: var(--text-color);
+  padding-left: 15px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration-style: double;
+  padding: 0.75em 1em;
+  box-shadow:0 0 10px rgba(0, 0, 0, .2) ;
+  width: max-content;
+  &:hover{
+    background-color: var(--primary-color);
+  }
+}
+.total-btn{
+  border-radius: 5px;
+  color: var(--text-color);
+  background-color: #fff;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  padding-right: 15px;
+  cursor: pointer;
+  padding: 0.75em 1em;
+  box-shadow:0 0 10px rgba(0, 0, 0, .2) ;
+  &:hover{
+    background-color: var(--primary-color);
+  }
+}
+
+
+/* .container{
+  background-color: #fff;
+  width: 100%;
+} */ 
+/* p {
+  font-size: 4em;
+  text-align: center;
+  color: var(--);
+  margin: 0;
+  
+  &:nth-of-type(4) {
+    color: yellow;
+  }
+} */ 

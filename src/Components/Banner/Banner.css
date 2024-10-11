@@ -1,0 +1,124 @@
+
+
+  :root {
+    --background-color: #fff;
+    --background-light: #fff;
+    --shadow-color: rgba(0,0,0,0.2);
+    --primary-color: rgb(185, 35, 53);
+    --text-color: #0A0A0A;
+    --text-light: #575757;
+    --animation-speed: 1;
+    --font-size: 16px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  img {
+    object-fit: cover;
+  }
+  
+  .now-btn {
+    border: none;
+    outline: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 0.75em 1em;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    box-shadow: 0 2px 6px var(--shadow-color);
+    &:hover {
+    background-color: var(--text-color);
+    }
+    
+    
+  }
+  
+  .section {
+    display: flex;
+    align-items: center;
+    padding-inline: 11vw;
+    margin-bottom: 3vw;
+    .title {
+      color: var(--text-color);
+      font-size: 4em;
+      font-weight: 900;
+      margin-bottom: 0.25em;
+      span {
+        color: var(--primary-color);
+      }
+    }
+    .info {
+      color: var(--text-light);
+      font-size: 1em;
+      letter-spacing: 1px;
+      line-height: 1.3em;
+      margin-bottom: 1.25em;
+    }
+    .col {
+      width: 50%;
+    }
+  }
+  
+  .section.img {
+    .typography {
+      padding-right: 5em;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.75vw;
+      .custom-image {
+        border-radius: 3px ;
+        overflow: hidden;
+        transform: scale(0);
+        opacity: 0;
+        animation: popOut 0.5s forwards;
+        &:nth-child(2) {
+          animation-delay: 0.1s;
+        }
+        &:nth-child(3) {
+          animation-delay: 0.2s;
+        }
+        &:nth-child(6) {
+          animation-delay: 0.3s;
+        }
+        &:nth-child(9) {
+          animation-delay: 0.4s;
+        }
+        &:nth-child(8) {
+          animation-delay: 0.5s;
+        }
+        &:nth-child(7) {
+          animation-delay: 0.6s;
+        }
+        &:nth-child(4) {
+          animation-delay: 0.7s;
+        }
+        &:nth-child(5) {
+          animation-delay: 0.8s;
+        }
+        
+
+      }
+    }
+  }
+  
+  @keyframes popOut {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+   

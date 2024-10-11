@@ -1,0 +1,97 @@
+
+   :root {
+    --background-color: #fff;
+    --background-light: #fff;
+    --primary-color: rgb(255, 0, 86);
+    --shadow-color: rgba(0,0,0,0.2);
+    --text-color: #0A0A0A;
+    --text-light: #575757;
+    --animation-speed: 1;
+    --font-size: 16px;
+  }
+  
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    background-color: var(--background-color);
+    
+  }
+  
+  .navbar-container {
+    flex-shrink: 0;
+    
+  }
+  
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    margin-top: 80%;
+  }
+  
+  .user-total-orders {
+    padding: 20px;
+    background-color: var(--background-light);  /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 1000px; /* Set a max-width to control the table's width */
+    width: 100%; /* Ensure the table takes full width of the container */
+    text-align: center; /* Center the text */
+  }
+  
+  .user-total-orders h1 {
+    font-family: poppins;
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  .back-icon {
+    color: var(--text-color);
+    position:relative;
+    margin-top: -1.5em;
+  }
+  
+  .table-orders {
+    width: 100%;
+    border-collapse: collapse; /* Remove double borders */
+    margin: 0 auto; /* Center the table */
+    border: none;
+  }
+  
+  .user-total-orders th, .user-total-orders td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .user-total-orders thead {
+    background-color: yellow; /* Set the background color for the table header */
+  }
+  
+  .user-total-orders th {
+    font-weight: bold;
+  }
+  
+  .user-total-orders tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .user-total-orders tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  .user-total-orders h2 {
+    text-align: center;
+  }
+  .user-total-orders h4{
+    padding-block-start: 2%;
+  }
+  @media (max-width: 600px) {
+    .table-orders {
+      font-size: 14px; /* Smaller font for smaller screens */
+    }
+  }
+  
