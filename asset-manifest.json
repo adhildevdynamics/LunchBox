@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/adhildevdynamics/LunchBox-.git/static/css/main.36ec97f5.css",
+    "main.js": "/adhildevdynamics/LunchBox-.git/static/js/main.f372cd90.js",
+    "static/media/hyderabadichicken.jpg": "/adhildevdynamics/LunchBox-.git/static/media/hyderabadichicken.aaae9db80c7dfeebc77b.jpg",
+    "static/media/pastaprimavera.jpg": "/adhildevdynamics/LunchBox-.git/static/media/pastaprimavera.e830e726069526510043.jpg",
+    "static/media/pizza.jpg": "/adhildevdynamics/LunchBox-.git/static/media/pizza.3caf62e00bcf1e1c5a8e.jpg",
+    "static/media/Ceasersalad.jpg": "/adhildevdynamics/LunchBox-.git/static/media/Ceasersalad.e5cd1a3ad687b13f9b30.jpg",
+    "static/media/beefbiriyani.webp": "/adhildevdynamics/LunchBox-.git/static/media/beefbiriyani.61f53394dca5b50faeaa.webp",
+    "static/media/cheeseburger": "/adhildevdynamics/LunchBox-.git/static/media/cheeseburger.452ca9c7d6fae1bc01ec",
+    "static/media/chickenpasta.jpg": "/adhildevdynamics/LunchBox-.git/static/media/chickenpasta.7935a1b31f4d582eab5c.jpg",
+    "static/media/greeksalad": "/adhildevdynamics/LunchBox-.git/static/media/greeksalad.3cd5e3859d087885b9ef",
+    "static/media/arabicchicken.jpg": "/adhildevdynamics/LunchBox-.git/static/media/arabicchicken.3c53b2f03149a2e8ad8e.jpg",
+    "static/media/vegbiriyani.jpg": "/adhildevdynamics/LunchBox-.git/static/media/vegbiriyani.0ef961dd3c5aa4f017c1.jpg",
+    "static/media/fishchips": "/adhildevdynamics/LunchBox-.git/static/media/fishchips.edeb71e9e23e151606fa",
+    "static/media/broast.avif": "/adhildevdynamics/LunchBox-.git/static/media/broast.25d309f3b9e231e7e26f.avif",
+    "static/media/chickenbiriyani.jpg": "/adhildevdynamics/LunchBox-.git/static/media/chickenbiriyani.a4ec572ca1ac3302a68f.jpg",
+    "static/media/muttonbiriyani.jpg": "/adhildevdynamics/LunchBox-.git/static/media/muttonbiriyani.c98dfa4c021b565f6b3d.jpg",
+    "static/media/cake": "/adhildevdynamics/LunchBox-.git/static/media/cake.db222db768ea57e4d0ce",
+    "static/media/vegstirfry": "/adhildevdynamics/LunchBox-.git/static/media/vegstirfry.46f1d96b88c2f7f0db41",
+    "static/media/chickennoodles.jfif": "/adhildevdynamics/LunchBox-.git/static/media/chickennoodles.ee3e9860774f2ae7f3c8.jfif",
+    "static/media/vegfriedrice": "/adhildevdynamics/LunchBox-.git/static/media/vegfriedrice.a824122e2ff8302993f2",
+    "static/media/back9.png": "/adhildevdynamics/LunchBox-.git/static/media/back9.0ba5fe7c06cf1c1437b2.png",
+    "static/media/beeftacos": "/adhildevdynamics/LunchBox-.git/static/media/beeftacos.5a736f311e67c9f5f4dd",
+    "static/media/chickensandwich": "/adhildevdynamics/LunchBox-.git/static/media/chickensandwich.121697903b525d1cf661",
+    "static/media/hassanmathar": "/adhildevdynamics/LunchBox-.git/static/media/hassanmathar.1b67c8bcc08c2018054d",
+    "index.html": "/adhildevdynamics/LunchBox-.git/index.html",
+    "main.36ec97f5.css.map": "/adhildevdynamics/LunchBox-.git/static/css/main.36ec97f5.css.map",
+    "main.f372cd90.js.map": "/adhildevdynamics/LunchBox-.git/static/js/main.f372cd90.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36ec97f5.css",
+    "static/js/main.f372cd90.js"
+  ]
+}
